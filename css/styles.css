@@ -210,3 +210,86 @@ table {
   outline: 1px solid red;
   font-size: 20px;
 }
+/*---blocks-float---*/
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.head {
+  background: grey;
+  height: 40px;
+}
+.tittle {
+  color: antiquewhite;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*---header---*/
+.header-float > div {
+  float: left;
+}
+.block1 {
+  width: 400px;
+  height: 400px;
+  background: rgb(13, 234, 250);
+  outline: 1px solid red;
+  font-size: 20px;
+}
+/*---body---*/
+.bl-green-left-float {
+  width: 800px;
+  float: left;
+}
+.bl-green-reight-float {
+  width: 400px;
+  float: right;
+}
+.block2 {
+  height: 200px;
+  background: greenyellow;
+  outline: 1px solid red;
+}
+.block3 {
+  height: 133.333px;
+  background: greenyellow;
+  outline: 1px solid red;
+}
+/*---footer---*/
+.block4 {
+  width: 400px;
+  height: 400px;
+  background: orange;
+  outline: 1px solid red;
+  font-size: 20px;
+  float: left;
+}
+.block5 {
+  width: 800px;
+  height: 200px;
+  background: orange;
+  outline: 1px solid red;
+  font-size: 20px;
+  float: left;
+}
+.block6 {
+  width: 400px;
+  height: 200px;
+  background: orange;
+  outline: 1px solid red;
+  font-size: 20px;
+  float: left;
+}
+.bl-orange-bottom-float {
+  float: left;
+  width: 400px;
+}
+.block7 {
+  height: 100px;
+  background: orange;
+  outline: 1px solid red;
+  font-size: 20px;
+}
